@@ -8,5 +8,5 @@ The data includes personal information about each customer, as well as informati
 ## EDA
 ### Job feature
 There are twelve types of jobs that occur in this data set. "Admin.","blue-collar"and "technician" are most frequent.
-![Job](Job status.png)
+![Job](Documentation/job.jpg)
 
