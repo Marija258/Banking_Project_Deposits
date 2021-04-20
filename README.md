@@ -19,5 +19,5 @@ The most frequent potential clients who are contacted are those with martial sta
 There are eight education levels that occur in the data set. "University.degree", "high.school" and "basic.9y" are the most fequent.
 
 ---
-![EDA](Documentation/job.jpg)
+![EDA](Documentation/job_education.jpg)
 
