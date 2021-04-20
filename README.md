@@ -17,7 +17,6 @@ There are eight education levels that occur in the data set. "University.degree"
 ---
 ![EDA](Documentation/job_education.jpg)
 
----
 
 **Marital status**
 
