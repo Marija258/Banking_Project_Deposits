@@ -37,6 +37,5 @@ The most frequent potential clients who are contacted are those with martial sta
 
 **Confusion Matrix**
 
----
 ![Confusion Matrix](Documentation/Confusion matrix.jpg)
 
