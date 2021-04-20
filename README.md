@@ -35,7 +35,14 @@ The most frequent potential clients who are contacted are those with martial sta
 |Recall|	0.779378|	0.827970|	0.624123|	0.525299|	0.781475|	0.883763|
 |Precision|	0.883800|	0.947028|	0.781150|	0.844497|	0.884806|	0.957243|
 
+
 **Confusion Matrix**
 
 ![Confusion Matrix](Documentation/cm.jpg)
+
+
+**ROC Curve**
+
+
+![ROC curve](Documentation/roc.jpg)
 
