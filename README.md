@@ -3,7 +3,7 @@
 ## Project Description
 Analyzing the data related to direct marketing campaigns (phone calls) of a Portuguese bank using various ML techniques. The classification goal is to predict if the client will subscribe a long-term deposit. 
 ## Data
-The data includes personal information about each customer, as well as information about the bank’s previous efforts in marketing to that client,
+The data includes personal information about each customer as well as information about the bank’s previous efforts in marketing to that client and social and economic context attributes.
 
 ## EDA
 **Job status**
