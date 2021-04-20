@@ -7,6 +7,7 @@ The data includes personal information about each customer, as well as informati
 
 ## EDA
 **Job status**
+
 There are twelve types of jobs that occur in this data set. "Admin.","blue-collar"and "technician" are the most frequent.
 
 **Marital status**
