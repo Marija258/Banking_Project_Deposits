@@ -114,7 +114,7 @@ Missing Attribute Values: There are several missing values in some categorical a
 
 The dataset is very unbalanced since it contains 36,548 "no" outputs and only 4,640 "yes" outputs. 
 
-## Short description for all files.
+## Short description of all files
 **Notebook for training**
 We've first done analysis here to check how many and which columns are numeric, which are categorical. Then we have checked if there are some missing values which wasn't the case. We proceeded with handling the missing data which we
 addressed by replacing the unknown values with most frequent values of the respective column. We then dropped the duration feature in line with the abovementioned important note related to that feature. 
@@ -171,3 +171,4 @@ We've also done bivariate analyses of the following features, however they were 
 4. cons.price.idx
 
 And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated. 
+
