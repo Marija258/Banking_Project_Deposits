@@ -79,7 +79,9 @@ The dataset has 41188 rows (entries) and 20 inputs (features) and a binary outpu
 Features:
    bank client data:
    1 - age (numeric)
-   2 - job : type of job (categorical: "admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown")
+   
+   2 - job : type of job (categorical: "admin.","blue-collar","entrepreneur","housemaid","management","retired","self employed","services","student","technician","unemployed","unknown")
+   
    3 - marital : marital status (categorical: "divorced","married","single","unknown"; note: "divorced" means divorced or widowed)
    4 - education (categorical: "basic.4y","basic.6y","basic.9y","high.school","illiterate","professional.course","university.degree","unknown")
    5 - default: has credit in default? (categorical: "no","yes","unknown")
