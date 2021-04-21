@@ -41,6 +41,14 @@ Client contacts are more frequent during May, July and August and preferred cont
 ---
 ![EDA](Documentation/contacts.jpg)
 
+
+**Previous camagin**
+
+Most of the potential clients who are contacted for the current campaign were not previously contacted for other campaign.
+
+---
+![EDA](Documentation/prevcamp.jpg)
+
 ## Evaluation Report
 
 **Accuracy, Precison, Recall**
