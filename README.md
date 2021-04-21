@@ -25,6 +25,22 @@ The most frequent potential clients who are contacted are those with martial sta
 ---
 ![EDA](Documentation/marital.jpg)
 
+
+**Loan Exposure**
+
+Most of the potential clients don't have personal loan or loan in default. The frequency of clients who have and don't have housing loan is very similar. 
+
+---
+![EDA](Documentation/houspersdef.jpg)
+
+
+**Contacts**
+
+Client contacts are more frequent during May, July and August and preferred contact type is by cellular. Client contacts during different days of the week are equally distributed.
+
+---
+![EDA](Documentation/contacts.jpg)
+
 ## Evaluation Report
 
 **Accuracy, Precison, Recall**
