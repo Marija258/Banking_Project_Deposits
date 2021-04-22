@@ -8,7 +8,7 @@ The data includes personal information about each customer as well as informatio
 ## EDA
 **Age**
 
-At least 75% of the clients are 31 years-old or older.
+75% of the clients in the data set are 31 years-old or older.
 
 ---
 ![EDA](Documentation/age.jpg)
