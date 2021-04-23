@@ -188,6 +188,14 @@ We've also done bivariate analyses of the following features, however they were 
 
 And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated.
 
+
+**Notebook for prediction**
+We've created dataset with only one entry to test our model based on XGBClassifier. We've divided the dataset columns on X_test and y_test items. W've then implemented RobustScaler on the age, cons.price.idx, cons.conf.idx,
+euribor3m, campaign features in the X_test and we've also applied Normalizer on the previous and pdays features in the same dataset implementing the same logic that was applied for the preprocessing of the original model.
+We utilized the same encoders as the ones we've used in the original model and we've loaded the model with applying the pickle.load command. 
+
+We predicted the value of the X_test entry of the loaded model and the result of the prediction was identical with the X_test entry, demonstrating the robustness of our model. 
+
 ## Conclusion
 
 After all the analyses that we've done and which have been presented in the abovementioned files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results. 
