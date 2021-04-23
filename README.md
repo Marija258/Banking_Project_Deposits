@@ -186,5 +186,15 @@ We've also done bivariate analyses of the following features, however they were 
 3. cons.conf.idx
 4. cons.price.idx
 
-And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated. 
+And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated.
+
+## Conclusion
+
+After all the analyses that we've done which are presented in the above files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results. 
+XGBoost is based on gradient boosted decision trees which is usually applied to classification problems when dataset is larger than 1000-2000 rows and if it has missing values with both categorical and numerical features. 
+XGBoost can handle well missing values and unscaled data and it can be applied for improved performance and overall execution speed of the model. Bearing in mind that we've transferred our unknown values into NaN or missing
+values, it is no wonder that XGBoost handled best our model, better than decision tree and random forrest. 
+
+The highly unbalance dataset was major problem which has been addressed with implementing  SMOTE technique which increased dramatically our accuracy, precision and recall results. Our analyses that were based on the 
+original unbalanced dataset, showed terrible results, especially in the precission and recall parts.
 
