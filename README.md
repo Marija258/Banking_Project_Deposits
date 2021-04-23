@@ -6,6 +6,7 @@ Analyzing the data related to direct marketing campaigns (phone calls) of a Port
 The data includes personal information about each customer as well as information about the bank’s previous efforts in marketing to that client and social and economic context attributes.
 
 ## EDA
+### Univariate Analysis
 **Age**
 
 75% of the clients in the data set are 31 years-old or older.
@@ -52,7 +53,14 @@ Most of the potential clients who are contacted for the current campaign were no
 ---
 ![EDA](Documentation/prevcamp.jpg)
 
+### Bivariate Analysis
+Explaining relationship between each variable in the dataset and the target variable.
 
+**Client job, education and marital statuse**
+
+
+---
+![EDA](Documentation/bijobedumart.jpg)
 
 ## Evaluation Report
 
@@ -186,21 +194,5 @@ We've also done bivariate analyses of the following features, however they were 
 3. cons.conf.idx
 4. cons.price.idx
 
-And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated.
-
-
-**Notebook for prediction**
-We've created dataset with only one entry to test our model based on XGBClassifier. We've divided the dataset columns on X_test and y_test items. W've then implemented RobustScaler on the age, cons.price.idx, cons.conf.idx,
-euribor3m, campaign features in the X_test and we've also applied Normalizer on the previous and pdays features in the same dataset implementing the same logic that was applied for the preprocessing of the original model.
-We utilized the same encoders as the ones we've used in the original model and we've loaded the model with applying the pickle.load command. 
-
-We predicted the value of the X_test entry of the loaded model and the result of the prediction was identical with the X_test entry, demonstrating the robustness of our model. 
-
-## Conclusion
-
-After all the analyses that we've done and which have been presented in the abovementioned files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results. 
-XGBoost is based on gradient boosted decision trees which is usually applied to classification problems when dataset is larger than 1000-2000 rows and that has both categorical and numerical missing values. 
-XGBoost can handle well the missing values and the unscaled data and it can be applied for improved performance and overall execution speed of the model. Bearing in mind that we've transferred our unknown values into NaN values, it is no wonder that XGBoost model handled best our analysis compared to the decision tree and random forrest model which were second and third best, respectivally. 
-
-The highly unbalanced dataset was a major problem which has been addressed with implementing  SMOTE technique that increased dramatically our accuracy, precision and recall results. Our analyses based on the original unbalanced dataset showed terrible results, especially in the precission and recall parts hence the SMOTE technique that balanced our dataset was crucial for our XGBoost predicition model.
+And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated. 
 
