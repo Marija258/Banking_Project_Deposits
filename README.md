@@ -190,11 +190,9 @@ And last but not least, we did analysis where we compared the emp.var.rate and n
 
 ## Conclusion
 
-After all the analyses that we've done which are presented in the above files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results. 
-XGBoost is based on gradient boosted decision trees which is usually applied to classification problems when dataset is larger than 1000-2000 rows and if it has missing values with both categorical and numerical features. 
-XGBoost can handle well missing values and unscaled data and it can be applied for improved performance and overall execution speed of the model. Bearing in mind that we've transferred our unknown values into NaN or missing
-values, it is no wonder that XGBoost handled best our model, better than decision tree and random forrest. 
+After all the analyses that we've done and which have been presented in the abovementioned files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results. 
+XGBoost is based on gradient boosted decision trees which is usually applied to classification problems when dataset is larger than 1000-2000 rows and that has both categorical and numerical missing values. 
+XGBoost can handle well the missing values and the unscaled data and it can be applied for improved performance and overall execution speed of the model. Bearing in mind that we've transferred our unknown values into NaN values, it is no wonder that XGBoost model handled best our analysis compared to the decision tree and random forrest model which were second and third best, respectivally. 
 
-The highly unbalance dataset was major problem which has been addressed with implementing  SMOTE technique which increased dramatically our accuracy, precision and recall results. Our analyses that were based on the 
-original unbalanced dataset, showed terrible results, especially in the precission and recall parts.
+The highly unbalanced dataset was a major problem which has been addressed with implementing  SMOTE technique that increased dramatically our accuracy, precision and recall results. Our analyses based on the original unbalanced dataset showed terrible results, especially in the precission and recall parts hence the SMOTE technique that balanced our dataset was crucial for our XGBoost predicition model.
 
