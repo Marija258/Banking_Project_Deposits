@@ -66,9 +66,8 @@ In addition, married people and people with higher education (university degree)
 ![EDA](Documentation/bijobedumart.jpg)
 
 **Loan Exposure**
- 
-Clients without personal loan and loan in default are also more willing to subscribe to long-term deposit. 
-Clients with housing loan are not significantly prone to long-term subscription compare to clients without housing loan.
+  
+When it comes to loan exposure than it can be noticed that most of the clients that subscribed to term deposit are clients that do not have personal loan and their exposure is not in default. When it comes to housing loan than most of the client that subscribed as well have housing loan.
 
 
 ---
@@ -77,7 +76,7 @@ Clients with housing loan are not significantly prone to long-term subscription 
 
 **Contacts**
  
-Clients are more willing to subscribe to long-term deposit between May and August. The Bank can call clients any working day since there is no preferred day of the week by the clients for Bank's call.
+Clients are more willing to subscribe to long-term deposit between May and August, this might be due to the fact that most of the targeted campaigns were done in this period. The Bank can call clients any working day since there is no preferred day of the week by the clients for Bank's call.
 
 
 ---
