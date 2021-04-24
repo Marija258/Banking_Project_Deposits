@@ -41,7 +41,7 @@ Most of the potential clients don't have personal loan or loan in default. The f
 
 **Contacts**
 
-Client contacts are more frequent during May, July and August and preferred contact type is by cellular. Client contacts during different days of the week are equally distributed.
+The Bank contact the clients mostly between May and August, during the whole working week and preferred type of call is on mobile phone.
 
 ---
 ![EDA](Documentation/contacts.jpg)
@@ -57,10 +57,33 @@ Most of the potential clients who are contacted for the current campaign were no
 Explaining relationship between each variable in the dataset and the target variable.
 
 **Client job, education and marital statuse**
+ 
+Most of the clients that subscribed to long-term deposit are clients employed in Administration, Technicians and Blue-Collar.
+In addition, married people and people with higher education (university degree) are more willing to subscribe to long-term deposit.
 
 
 ---
 ![EDA](Documentation/bijobedumart.jpg)
+
+**Loan Exposure**
+ 
+Clients without personal loan and loan in default are also more willing to subscribe to long-term deposit. 
+Clients with housing loan are not significantly prone to long-term subscription compare to clients without housing loan.
+
+
+---
+![EDA](Documentation/biloan.jpg)
+
+
+**Contacts**
+ 
+Clients are more willing to subscribe to long-term deposit between May and August. The Bank can call clients any working day since there is no preferred day of the week by the clients.
+
+
+---
+![EDA](Documentation/bicont.jpg)
+ 
+
 
 ## Evaluation Report
 
