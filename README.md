@@ -86,11 +86,11 @@ Clients are more willing to subscribe to long-term deposit between May and Augus
 
 **Contacts**
  
-Clients are more willing to subscribe to long-term deposit between May and August. The Bank can call clients any working day since there is no preferred day of the week by the clients.
+Most of the clients that subscribed to long-term deposit were not contacted before for previous campaigns following by those who were contacted for previous campaign and the result was successful.
 
 
 ---
-![EDA](Documentation/bicont.jpg)
+![EDA](Documentation/biprevcont.jpg)
  
 
 
