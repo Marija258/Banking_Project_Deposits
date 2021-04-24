@@ -82,6 +82,15 @@ Clients are more willing to subscribe to long-term deposit between May and Augus
 
 ---
 ![EDA](Documentation/bicont.jpg)
+
+
+**Contacts**
+ 
+Clients are more willing to subscribe to long-term deposit between May and August. The Bank can call clients any working day since there is no preferred day of the week by the clients.
+
+
+---
+![EDA](Documentation/bicont.jpg)
  
 
 
