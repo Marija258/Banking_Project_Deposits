@@ -1,7 +1,7 @@
 # Banking - Project - Deposits
 ---
 ## Project Description
-Analyzing the data related to direct marketing campaigns (phone calls) of a Portuguese bank using various ML techniques. The classification goal is to predict if the client will subscribe a long-term deposit. 
+Analyzing the data related to direct marketing campaigns (phone calls) of a Portuguese bank using various ML techniques. The classification goal is to predict if the client will subscribe a Term deposit. 
 ## Data
 The data includes personal information about each customer as well as information about the bank’s previous efforts in marketing to that client and social and economic context attributes.
 
@@ -9,32 +9,32 @@ The data includes personal information about each customer as well as informatio
 ### Univariate Analysis
 **Age**
 
-75% of the clients in the data set are 31 years-old or older.
+75% of the clients in the data set are 31 years-old or older, which is understandable for those to be targeted, most of the savings are done after 30years old. 
 
 ---
 ![EDA](Documentation/age.jpg)
 
 **Job status**
 
-There are twelve types of jobs that occur in this data set. "Admin.","blue-collar"and "technician" are the most frequent.
+There are twelve types of jobs that occur in this data set. Employees from Administration sector, Blue Collar, and Technicians were the most targeted, and this continiues with employees in Services sector and Managenent. This might be due to the fact that Anministration and Blue Collar sectors employee large number of employees, or this is the bank's structure of clients.
 
 **Education level**
 
-There are eight education levels that occur in the data set. "University.degree", "high.school" and "basic.9y" are the most fequent.
+There are eight education levels that occur in the data set. Most of the clients had University degree, High school Diploma and Basic 9 year education. This feature is as well connected with Job Status feature. 
 
 ---
 ![EDA](Documentation/job_education.jpg)
 
 **Marital status**
 
-The most frequent potential clients who are contacted are those with martial status "married", followed by "single" and "divorced".
+The most frequent potential clients who are contacted are those with martial status "married", followed by "single" and "divorced". This is as well understandable due to the fact that most of the savings are done when people are married or single after certain age. 
 
 ---
 ![EDA](Documentation/marital.jpg)
 
 **Loan Exposure**
 
-Most of the potential clients don't have personal loan or loan in default. The frequency of clients who have and don't have housing loan is very similar. 
+Most of the potential clients in this dataset don't have personal loan or loan in default. The frequency of clients who have and don't have housing loan is very similar. This feature shows that from loan clients mainly clients that have housing loan are being targeted, it is assumed  that those clients save as well, opposed to clients that have consumer/personal loan or are in default. 
 
 ---
 ![EDA](Documentation/houspersdef.jpg)
