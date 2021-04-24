@@ -77,7 +77,7 @@ Clients with housing loan are not significantly prone to long-term subscription 
 
 **Contacts**
  
-Clients are more willing to subscribe to long-term deposit between May and August. The Bank can call clients any working day since there is no preferred day of the week by the clients.
+Clients are more willing to subscribe to long-term deposit between May and August. The Bank can call clients any working day since there is no preferred day of the week by the clients for Bank's call.
 
 
 ---
