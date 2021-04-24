@@ -56,7 +56,7 @@ Most of the potential clients who are contacted for the current campaign were no
 ### Bivariate Analysis
 Explaining relationship between variables and the target variable.
 
-**Client job, education and marital statuse**
+**Client job, education and marital status**
  
 Most of the clients that subscribed to long-term deposit are clients employed in Administration, Technicians and Blue-Collar.
 In addition, married people and people with higher education (university degree) are more willing to subscribe to long-term deposit.
