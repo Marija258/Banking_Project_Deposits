@@ -128,7 +128,7 @@ We predicted the value of the X_test entry of the loaded model and the result of
 
 The dataset is very unbalanced since it contains 36,548 "no" outputs and only 4,640 "yes" outputs. There is a huge imbalance in target class. Most of the data this data set has are with outcome 'no'which means the client decides not to use this service. This can be interpreted as 11% rate of success in this campagin for client aqusition. 
 
-
+![Output](Documentation/targetclass.jpg)
 
 **Age**
 
