@@ -257,4 +257,4 @@ Most of the clients that subscribed to long-term deposit were not contacted befo
 
 **Recommendations to the Marketing Team**
 
-![Recommendations](Documentation/Recomendation.jpg)
+![Recommendations](Documentation/Recomendation.jpg {width=5px height=5px})
