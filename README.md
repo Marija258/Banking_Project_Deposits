@@ -256,5 +256,6 @@ Most of the clients that subscribed to long-term deposit were not contacted befo
 ## Conslusion
 
 ### Recommendations to the Marketing Team
+---
 
 ![Recommendations](Documentation/Recomendation.jpg)
