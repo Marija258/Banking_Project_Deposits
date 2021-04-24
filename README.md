@@ -84,6 +84,7 @@ models so we can graphically present the true positives and negatives as well as
 - Feature importance - And finally, we've implemented a step which assessed the importance of each of the features in determning the output so we have clearer picture about what features are most correlated and influence the output variable.   
 
 **Notebook for EDA**
+
 We've done univariate and bivariate analysis which are included in the notebook for EDA. First univariate analysis we did was for the 'y' column, i.e the output variable which indicated that the dataset is very unbalances as abovementioned.
 We also did univariate analysis of all features (inputs) included in the database and we presented them with plots utilizing matplotlib and seaborn libraries. We've also done a log transformation to eliminate the 'skew' effect of the
 campaign feature before presenting it. 
