@@ -43,7 +43,76 @@ Output variable (desired target):
 
 Missing Attribute Values: There are several missing values in some categorical attributes, all coded with the "unknown" label. These missing values can be treated as a possible class label or using deletion or imputation techniques.
 
-## EDA
+
+## Short description of all files
+**Notebook for training**
+
+***Data preprocessing***
+
+First analysis was done in order to determine how many and which columns are numeric, which are categorical. 
+
+- Feature selection -The 'duration' feature is being dropped mainly because this attribute highly affects the output target (e.g., if duration=0 then y="no"). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known.
+
+- Missing data -This data set does not have missing values. but still some of the features have unknown values. For some features it is decided for unknown to remain as it is and some of them like loan and default will be repalsed with most frequent values due to the fact that this information is usually publicly available.
+
+- Scaling - We've then applied robust scaler to the age,cons.price.idx,cons.conf.idx,euribor3m and campaign features whereas we utilized normalizer for the previous and pdays features. 
+
+- Category encoding - As a next step, we proceeded with the encoding where we utilized label encoder for the output (class) column and for all the rest categorical features, we utilized catboost encoder. 
+
+- SMOTE - We then applied SMOTE technique in order to balance the dataset which as very unbalanced. We've first split the X and y to train and test sets so we can apply SMOTE separately to the train and test sets so we avoid 
+both underestimation and overestimation.
+
+***Classification models***
+
+ Six classification models were implmented:
+1.DecisionTreeClassifier
+2.RandomForestClassifier
+3.KNeighborsClassifier
+4.GaussianNB
+5.GradientBoostingClassifier
+6.XGBClassifier
+
+- Best Model - XGBClassifier gave us best accuracy, precision and recall results. We checked this with comparing the accuracy, precision and recall results of all clasification models in the next step. 
+
+- Evaluation Metrics - We've drawn the confusion matrices of all 6
+models so we can graphically present the true positives and negatives as well as false positives and negatives of each classification model. We've also drawn An ROC curves (receiver operating characteristic curves) of all models which have shown the performance of the classification models at all classification thresholds. More details for different metrics below in Evaluation Report
+
+- Hyperparametar optimization - The next step involved implementing hyperparametar optimization for the XGBClassifier as best classification model where we utilized RandomizedSearchCV which assisted us to slightly improve the results of the model. 
+
+- Validation - As penultimate step, we've done 10 fold cross validation so we assess the performance of our two best models more rigorously. It has demonstrated lower accuracy, precision and recall results compared with the train_test_split. 
+
+- Feature importance - And finally, we've implemented a step which assessed the importance of each of the features in determning the output so we have clearer picture about what features are most correlated and influence the output variable.   
+
+**Notebook for EDA**
+We've done univariate and bivariate analysis which are included in the notebook for EDA. First univariate analysis we did was for the 'y' column, i.e the output variable which indicated that the dataset is very unbalances as abovementioned.
+We also did univariate analysis of all features (inputs) included in the database and we presented them with plots utilizing matplotlib and seaborn libraries. We've also done a log transformation to eliminate the 'skew' effect of the
+campaign feature before presenting it. 
+
+We also did several bivariate analyses. We've done bivariate anaslysis of the following features vis a vis the output (class):
+1. job
+2. marital
+3. education
+4. default
+5. housing
+6. loan
+7. month
+8. day_of_week
+9. poutcome
+10. previous 
+
+All of abovementioned bivariate analyses were done in single chart each. 
+
+We've also done bivariate analyses of the following features, however they were presented in two separate charts each - one for the feature vis a vis "yes" class and another for the for the feature vis a vis "no" class:
+1. campaign 
+2. euribor3m
+3. cons.conf.idx
+4. cons.price.idx
+
+And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated. 
+
+
+
+## Exploratory Data Analysis
 ### Univariate Analysis
 
 **Output variable**
@@ -175,62 +244,3 @@ Most of the clients that subscribed to long-term deposit were not contacted befo
 ![ROC curve](Documentation/roc.jpg)
 
  
-
-## Short description of all files
-**Notebook for training**
-We've first done analysis here to check how many and which columns are numeric, which are categorical. Then we have checked if there are some missing values which wasn't the case. We proceeded with handling the missing data which we
-addressed by replacing the unknown values with most frequent values of the respective column. We then dropped the duration feature in line with the abovementioned important note related to that feature. 
-
-We've then applied robust scaler to the age,cons.price.idx,cons.conf.idx,euribor3m and campaign features whereas we utilized normalizer for the previous and pdays features. 
-
-As a next step, we proceeded with the encoding where we utilized label encoder for the output (class) column and for all the rest categorical features, we utilized catboost encoder. 
-
-We then applied SMOTE technique in order to balance the dataset which as noted above is very unbalanced. We've first split the X and y to train and test sets so we can apply SMOTE separately to the train and test sets so we avoid 
-both underestimation and overestimation.
-
-We've then implemented six classification models:
-- DecisionTreeClassifier
-- RandomForestClassifier
-- KNeighborsClassifier
-- GaussianNB
-- GradientBoostingClassifier
-- XGBClassifier
-
-XGBClassifier gave us best accuracy, precision and recall results. We checked this with comparing the accuracy, precision and recall results of all clasification models in the next step. We've also drawn the confusion matrices of all 6
-models so we can graphically present the true positives and negatives as well as false positives and negatives of each classification model. 
-
-We've also drawn An ROC curves (receiver operating characteristic curves) of all models which have shown the performance of the classification models at all classification thresholds.
-
-The next step involved implementing hyperparametar optimization for the XGBClassifier as best classification model where we utilized RandomizedSearchCV which assisted us to slightly improve the results of the model. 
-
-As penultimate step, we've done 10 fold cross validation so we assess the performance of our two best models more rigorously. It has demonstrated lower accuracy, precision and recall results compared with the train_test_split. 
-
-And finally, we've implemented a step which assessed the importance of each of the features in determning the output so we have clearer picture about what features are most correlated and influence the output variable.   
-
-**Notebook for EDA**
-We've done univariate and bivariate analysis which are included in the notebook for EDA. First univariate analysis we did was for the 'y' column, i.e the output variable which indicated that the dataset is very unbalances as abovementioned.
-We also did univariate analysis of all features (inputs) included in the database and we presented them with plots utilizing matplotlib and seaborn libraries. We've also done a log transformation to eliminate the 'skew' effect of the
-campaign feature before presenting it. 
-
-We also did several bivariate analyses. We've done bivariate anaslysis of the following features vis a vis the output (class):
-1. job
-2. marital
-3. education
-4. default
-5. housing
-6. loan
-7. month
-8. day_of_week
-9. poutcome
-10. previous 
-
-All of abovementioned bivariate analyses were done in single chart each. 
-
-We've also done bivariate analyses of the following features, however they were presented in two separate charts each - one for the feature vis a vis "yes" class and another for the for the feature vis a vis "no" class:
-1. campaign 
-2. euribor3m
-3. cons.conf.idx
-4. cons.price.idx
-
-And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated. 
-
