@@ -54,7 +54,7 @@ Most of the potential clients who are contacted for the current campaign were no
 ![EDA](Documentation/prevcamp.jpg)
 
 ### Bivariate Analysis
-Explaining relationship between each variable in the dataset and the target variable.
+Explaining relationship between variables and the target variable.
 
 **Client job, education and marital statuse**
  
