@@ -68,7 +68,6 @@ both underestimation and overestimation.
 ***Classification models***
 
  Six classification models were implmented:
- 
   - [ ] DecisionTree
   - [ ] RandomForest
   - [ ] KNN
@@ -258,7 +257,13 @@ Most of the clients that subscribed to long-term deposit were not contacted befo
  
 ## Conslusion
 
+After all the analyses that we've done and which have been presented in the abovementioned files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results.
+- XGBoost is based on gradient boosted decision trees which is usually applied to classification problems when dataset is larger than 1000-2000 rows and that has both categorical and numerical missing values.
+XGBoost can handle well the missing values and the unscaled data and it can be applied for improved performance and overall execution speed of the model. 
+- The highly unbalanced dataset was a major problem which has been addressed with implementing SMOTE technique that increased dramatically our accuracy, precision and recall results. Our analyses based on the original unbalanced
+dataset showed terrible results, especially in the precission and recall parts hence the SMOTE technique that balanced our dataset was crucial for our XGBoost predicition model.
+
 ### Recommendations to the Marketing Team
 ---
 
-![Recommendations](Documentation/Recomendation.jpg)
+
