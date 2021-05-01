@@ -69,12 +69,12 @@ both underestimation and overestimation.
 
  Six classification models were implmented:
  
-1.DecisionTreeClassifier
-2.RandomForestClassifier
-3.KNeighborsClassifier
-4.GaussianNB
-5.GradientBoostingClassifier
-6.XGBClassifier
+ 1. DecisionTreeClassifier
+ 2. RandomForestClassifier
+ 3. KNeighborsClassifier
+ 4. GaussianNB
+ 5. GradientBoostingClassifier
+ 6. XGBClassifier
 
 - Best Model - XGBClassifier gave us best accuracy, precision and recall results. We checked this with comparing the accuracy, precision and recall results of all clasification models in the next step. 
 
