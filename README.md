@@ -69,12 +69,12 @@ both underestimation and overestimation.
 
  Six classification models were implmented:
  
- 1. DecisionTreeClassifier
- 2. RandomForestClassifier
- 3. KNeighborsClassifier
- 4. GaussianNB
- 5. GradientBoostingClassifier
- 6. XGBClassifier
+  - [ ] DecisionTree
+  - [ ] RandomForest
+  - [ ] KNN
+  - [ ] Gaussian
+  - [ ] GradientBoosting
+  - [X] EXtremeGradientBoosting
 
 - Best Model - XGBClassifier gave us best accuracy, precision and recall results. We checked this with comparing the accuracy, precision and recall results of all clasification models in the next step. 
 
@@ -108,10 +108,11 @@ We also did several bivariate analyses. We've done bivariate anaslysis of the fo
 All of abovementioned bivariate analyses were done in single chart each. 
 
 We've also done bivariate analyses of the following features, however they were presented in two separate charts each - one for the feature vis a vis "yes" class and another for the for the feature vis a vis "no" class:
-1. campaign 
-2. euribor3m
-3. cons.conf.idx
-4. cons.price.idx
+1. age
+2. campaign 
+4. euribor3m
+5. cons.conf.idx
+6. cons.price.idx
 
 And last but not least, we did analysis where we compared the emp.var.rate and nr.employed features which has demonstrated that they're almost fully corellated. 
 
@@ -134,7 +135,7 @@ The dataset is very unbalanced since it contains 36,548 "no" outputs and only 4,
 
 **Age**
 
-75% of the clients in the data set are 31 years-old or older, which is understandable for those to be targeted, most of the savings are done after 30years old. 
+75% of the clients in the data set are 31 years-old or older, which is understandable for those to be targeted, most of the savings are done after 30th year of life. 
 
 ---
 ![EDA](Documentation/age.jpg)
