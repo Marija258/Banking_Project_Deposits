@@ -263,7 +263,7 @@ XGBoost can handle well the missing values and the unscaled data and it can be a
 - The highly unbalanced dataset was a major problem which has been addressed with implementing SMOTE technique that increased dramatically our accuracy, precision and recall results. Our analyses based on the original unbalanced
 dataset showed terrible results, especially in the precission and recall parts hence the SMOTE technique that balanced our dataset was crucial for our XGBoost predicition model.
 
-### Recommendations to the Marketing Team
+### Recommendations for Management and Marketing Team
 ---
 
 
