@@ -275,6 +275,6 @@ dataset showed terrible results, especially in the precission and recall parts h
 ---
 **Management**
 
-![Management](Documentation/Management.jpg)
+
 
 
