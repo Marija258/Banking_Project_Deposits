@@ -254,6 +254,14 @@ Most of the clients that subscribed to long-term deposit were not contacted befo
 
 ![ROC curve](Documentation/roc.jpg)
 
+**10 fold cross validation**
+
+|Metric|	RandomForest|	ExtremeGradientBoosting|
+|------|-------------|--------------|
+|Precision|	0.752991|	0.750156|
+|Recall|	0.632056|	0.635047|
+
+
  
 ## Conslusion
 
