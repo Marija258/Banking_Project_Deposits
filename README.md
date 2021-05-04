@@ -263,7 +263,7 @@ Most of the clients that subscribed to long-term deposit were not contacted befo
 
 
  
-## Conslusion
+## Conclusion
 
 After all the analyses that we've done and which have been presented in the abovementioned files as well as all the models we've applied, we can conclude that XGBClassifier has shown best accuracy, precision and recall results.
 - XGBoost is based on gradient boosted decision trees which is usually applied to classification problems when dataset is larger than 1000-2000 rows and that has both categorical and numerical missing values.
