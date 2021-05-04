@@ -273,8 +273,12 @@ dataset showed terrible results, especially in the precission and recall parts h
 
 ### Recommendations for Management and Marketing Team
 ---
-**Management**
+**Marketing**
+<p align="left" width="100" height="100">
+<img src="Documentation/Marketing team.jpg">
+</p>
 
+**Management**
 <p align="left" width="100" height="100">
 <img src="Documentation/Management.jpg">
 </p>
